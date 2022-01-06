@@ -25,6 +25,7 @@ const dbapp = initializeApp(firebaseConfig);
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
+  console.log('posts213ád123');
   res.sendFile(path.resolve('pages/index.html'));
 });
 
