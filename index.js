@@ -33,5 +33,5 @@ app.listen(port, () => {
 });
 
 app.get('/posts', (req, res) => {
-  console.log('posts');
+  console.log('posts213ád');
 });
